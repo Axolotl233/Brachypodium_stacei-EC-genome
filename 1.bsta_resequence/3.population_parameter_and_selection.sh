@@ -11,6 +11,7 @@ Using https://github.com/Axolotl233/Simple_Script/blob/master/Command.Plink.F.pl
 
 #DXY
 pixy --stat pi dxy --vcf vcf.file --populations pop.lst  --n_cores 10 --bypass_invariant_check yes --output_folder pixy.out
+# the Dxy in fig 3c and fig S29 were calculated by https://github.com/hugang123/Dxy
 
 #FST
 vcftools --gzvcf vcf.gz --fst-window-size 10000 --fst-window-step 0 --weir-fst-pop pop1.lst --weir-fst-pop pop2.lst  --out Fst.10K.0K
