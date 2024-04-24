@@ -1,1 +1,2 @@
+Bhyb.v2.fasta.gz filter=lfs diff=lfs merge=lfs -text
 Bsta.v2.1.fasta.gz filter=lfs diff=lfs merge=lfs -text
